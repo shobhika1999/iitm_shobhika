@@ -1,0 +1,150 @@
+{
+  "rfp_run_id": "RFP-20261105-095038-72CC82",
+  "created_at": "2026-11-05 09:50:38",
+  "status": "completed",
+  "criteria_snapshot": [
+    {
+      "run_id": "RFP-20261105-095038-72CC82",
+      "criterion_id": 1,
+      "criterion_name": "Technical Capability",
+      "description": "Technical architecture, functionality, scalability and integration capability.",
+      "weight": 30.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095038-72CC82",
+      "criterion_id": 2,
+      "criterion_name": "Implementation Plan",
+      "description": "Project timeline, delivery methodology, milestones and implementation team.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095038-72CC82",
+      "criterion_id": 3,
+      "criterion_name": "Commercial Value",
+      "description": "Pricing competitiveness, cost transparency and overall value for money.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095038-72CC82",
+      "criterion_id": 4,
+      "criterion_name": "Security & Compliance",
+      "description": "Information security, data protection, access control and regulatory compliance.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095038-72CC82",
+      "criterion_id": 5,
+      "criterion_name": "Support & Experience",
+      "description": "Customer support, service commitments, references and relevant project experience.",
+      "weight": 10.0,
+      "max_score": 10.0
+    }
+  ],
+  "tie_break_rule": "PPI descending, submission date ascending, experience rating descending, supplier name ascending",
+  "warnings": [],
+  "suppliers": [
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-11-05",
+      "experience_rating": 7.0,
+      "absolute_score": 81.0,
+      "ppi": 100.0,
+      "rank": 1,
+      "overall_summary": "Apex Systems provides a technically mature and secure solution that aligns well with Northstar's existing SAP and Microsoft environment. While the proposal is at a higher price point than other bids, it offers high extensibility and a well-defined implementation methodology. The risks are primarily related to project dependencies and potential scope creep regarding custom SAP integrations.",
+      "risks": [
+        "The 18-week implementation schedule is dependent on the buyer providing timely SAP sandbox access and clean data.",
+        "Three-year total cost is higher than other market options.",
+        "Additional costs may be incurred for storage exceeding 2 TB or custom SAP object development.",
+        "Complex legacy SAP fields are excluded from the initial integration scope pending discovery."
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3078,
+        "completion_tokens": 783,
+        "total_tokens": 3861,
+        "model": "google/gemini-3.1-flash-lite"
+      },
+      "criteria": [
+        {
+          "criterion_result_id": 6,
+          "supplier_result_id": 15,
+          "run_id": "RFP-20261105-095038-72CC82",
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The proposal demonstrates a robust, modern microservices architecture with clear integration paths for SAP and Microsoft ecosystems. It meets all functional requirements including workflow orchestration and auditability.",
+          "evidence": "Apex Procurement Cloud uses separately deployable services for supplier master, sourcing events, document management, approvals, analytics and notification. Services run in managed Kubernetes across three availability zones.",
+          "benchmark_score": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 30.0
+        },
+        {
+          "criterion_result_id": 7,
+          "supplier_result_id": 15,
+          "run_id": "RFP-20261105-095038-72CC82",
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "The implementation plan is detailed and structured with clear milestones. The 18-week timeline is realistic, though slightly longer than the buyer's baseline, due to the inclusion of migration rehearsals and integration testing.",
+          "evidence": "Apex proposes an 18-week delivery. Weeks 1-2: discovery and solution design. Weeks 3-5: tenant setup, identity and core data model. Weeks 6-9: supplier onboarding, RFQ and approvals configuration.",
+          "benchmark_score": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 8,
+          "supplier_result_id": 15,
+          "run_id": "RFP-20261105-095038-72CC82",
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "Pricing is transparent with a clear breakdown of one-time and recurring costs. However, the proposal explicitly notes it is not the lowest-cost option and includes potential variable costs for storage and custom SAP objects.",
+          "evidence": "Three-year total before taxes INR 1,32,00,000. Storage above 2 TB is INR 1,20,000 per additional TB per year. Additional custom SAP objects are charged at INR 18,000 per consultant day.",
+          "benchmark_score": 6.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 9,
+          "supplier_result_id": 15,
+          "run_id": "RFP-20261105-095038-72CC82",
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The supplier provides strong evidence of security compliance, including ISO 27001 certification, SOC 2 Type II reporting, and clear data residency in India. Disaster recovery and RTO/RPO targets align with buyer expectations.",
+          "evidence": "Apex states that its operating entity holds ISO/IEC 27001:2022 certification... Customer data is hosted in Mumbai and Hyderabad regions with encrypted cross-zone backups.",
+          "benchmark_score": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 10,
+          "supplier_result_id": 15,
+          "run_id": "RFP-20261105-095038-72CC82",
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "The support model is comprehensive, offering 24x7 coverage for critical incidents and a named service manager. Relevant project experience is cited with two similar-sized manufacturing references.",
+          "evidence": "Premium support provides 24x7 coverage for P1 incidents, 8x5 coverage for other tickets, a named service manager and quarterly service reviews.",
+          "benchmark_score": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 10.0
+        }
+      ]
+    }
+  ]
+}

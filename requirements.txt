@@ -1,0 +1,6 @@
+streamlit>=1.39,<2
+pypdf>=5,<7
+pydantic>=2.7,<3
+python-dotenv>=1,<2
+requests>=2.31,<3
+pytest>=8,<10

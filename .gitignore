@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db

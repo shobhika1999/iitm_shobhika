@@ -1,0 +1,149 @@
+{
+  "rfp_run_id": "RFP-20261105-095015-3EE43E",
+  "created_at": "2026-11-05 09:50:15",
+  "status": "completed",
+  "criteria_snapshot": [
+    {
+      "run_id": "RFP-20261105-095015-3EE43E",
+      "criterion_id": 1,
+      "criterion_name": "Technical Capability",
+      "description": "Technical architecture, functionality, scalability and integration capability.",
+      "weight": 30.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095015-3EE43E",
+      "criterion_id": 2,
+      "criterion_name": "Implementation Plan",
+      "description": "Project timeline, delivery methodology, milestones and implementation team.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095015-3EE43E",
+      "criterion_id": 3,
+      "criterion_name": "Commercial Value",
+      "description": "Pricing competitiveness, cost transparency and overall value for money.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095015-3EE43E",
+      "criterion_id": 4,
+      "criterion_name": "Security & Compliance",
+      "description": "Information security, data protection, access control and regulatory compliance.",
+      "weight": 20.0,
+      "max_score": 10.0
+    },
+    {
+      "run_id": "RFP-20261105-095015-3EE43E",
+      "criterion_id": 5,
+      "criterion_name": "Support & Experience",
+      "description": "Customer support, service commitments, references and relevant project experience.",
+      "weight": 10.0,
+      "max_score": 10.0
+    }
+  ],
+  "tie_break_rule": "PPI descending, submission date ascending, experience rating descending, supplier name ascending",
+  "warnings": [],
+  "suppliers": [
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-11-05",
+      "experience_rating": 7.0,
+      "absolute_score": 76.0,
+      "ppi": 100.0,
+      "rank": 1,
+      "overall_summary": "MOCK TEST ONLY: this result verifies local pipeline persistence and scoring, not supplier merit.",
+      "risks": [
+        "MOCK TEST ONLY: replace with live AI evaluation before making procurement decisions."
+      ],
+      "warnings": [
+        "Mock evaluator used; not a live OpenRouter assessment."
+      ],
+      "usage": {
+        "model": "offline-mock",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "criteria": [
+        {
+          "criterion_result_id": 1,
+          "supplier_result_id": 14,
+          "run_id": "RFP-20261105-095015-3EE43E",
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "MOCK TEST ONLY: deterministic fixture score used to verify pipeline wiring; not a substantive supplier assessment.",
+          "evidence": "MOCK TEST ONLY: live model evidence extraction was not performed.",
+          "benchmark_score": 8.5,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 30.0
+        },
+        {
+          "criterion_result_id": 2,
+          "supplier_result_id": 14,
+          "run_id": "RFP-20261105-095015-3EE43E",
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "MOCK TEST ONLY: deterministic fixture score used to verify pipeline wiring; not a substantive supplier assessment.",
+          "evidence": "MOCK TEST ONLY: live model evidence extraction was not performed.",
+          "benchmark_score": 7.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 3,
+          "supplier_result_id": 14,
+          "run_id": "RFP-20261105-095015-3EE43E",
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "MOCK TEST ONLY: deterministic fixture score used to verify pipeline wiring; not a substantive supplier assessment.",
+          "evidence": "MOCK TEST ONLY: live model evidence extraction was not performed.",
+          "benchmark_score": 6.0,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 4,
+          "supplier_result_id": 14,
+          "run_id": "RFP-20261105-095015-3EE43E",
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "MOCK TEST ONLY: deterministic fixture score used to verify pipeline wiring; not a substantive supplier assessment.",
+          "evidence": "MOCK TEST ONLY: live model evidence extraction was not performed.",
+          "benchmark_score": 8.5,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 20.0
+        },
+        {
+          "criterion_result_id": 5,
+          "supplier_result_id": 14,
+          "run_id": "RFP-20261105-095015-3EE43E",
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 7.5,
+          "max_score": 10.0,
+          "justification": "MOCK TEST ONLY: deterministic fixture score used to verify pipeline wiring; not a substantive supplier assessment.",
+          "evidence": "MOCK TEST ONLY: live model evidence extraction was not performed.",
+          "benchmark_score": 7.5,
+          "gap": 0.0,
+          "relative_performance": 100.0,
+          "weighted_ppi_contribution": 10.0
+        }
+      ]
+    }
+  ]
+}
